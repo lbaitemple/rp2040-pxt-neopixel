@@ -379,6 +379,7 @@ namespace neopixel {
             this.pin = pin;
             // pins.digitalWritePin(this.pin, 0);
             this.pin.digitalWrite(true);
+            console.log("hello");
             // don't yield to avoid races on initialization
         }
 
