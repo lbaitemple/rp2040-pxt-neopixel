@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "adafruit-metro-m0-express": "*"
+        "rpi-pico": "*",
+        "color": "*"
     },
     "files": [
         "README.md",
@@ -21,5 +22,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
