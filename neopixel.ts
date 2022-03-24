@@ -377,7 +377,8 @@ namespace neopixel {
         //% parts="neopixel" advanced=true
         setPin(pin: DigitalInOutPin): void {
             this.pin = pin;
-            this.pin.digitalWrite(false);
+            // pins.digitalWritePin(this.pin, 0);
+            this.pin.digitalWrite(true);
             // don't yield to avoid races on initialization
         }
 
