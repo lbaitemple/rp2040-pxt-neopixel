@@ -8,12 +8,9 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "neopixel.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
         "target": "0.15.58",
